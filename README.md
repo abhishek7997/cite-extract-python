@@ -6,9 +6,11 @@ A python tool to extract and parse text from PDF files, specifically Research Pa
 
 - Extract sentences from pdf
 - Get citations in text
-- Get adjectives present in the text and classify it as positive or negative based on a pre-built wordlist
+- Get adjectives present in the text and categorize it as positive or negative based on a pre-built wordlist
 - Uses pdfminer.six library
+- Removed special characters, formatting tags, unnecessary whitespace, and other artifacts that may have been introduced during PDF parsing.
 - Extract data in the form of CSV (See image) and TXT file
+- Enhanced the usability and efficiency of the data by making it easier to process and analyze.
  
 ![image](https://github.com/abhishek7997/cite-extract-python/assets/68701271/db0ea3bd-9bc4-4f1b-bf0c-767d00399c18)
 
