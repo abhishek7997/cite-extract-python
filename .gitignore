@@ -1,0 +1,6 @@
+default_sentiments.txt
+adjectives.csv
+
+papers/
+dataset/
+__pycache__/
